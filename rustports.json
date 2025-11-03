@@ -9,13 +9,20 @@
     {
         "Protocol": "Both",
         "Port": 28016,
-        "Ref": "Query_RCONPort",
+        "Ref": "Query",
+        "Name": "Query and RCON Port",
+        "Description": "Port for query and RCON traffic"
+    },
+    {
+        "Protocol": "Both",
+        "Port": 28017,
+        "Ref": "RCONPort",
         "Name": "Query and RCON Port",
         "Description": "Port for query and RCON traffic"
     },
     {
         "Protocol": "TCP",
-        "Port": 28017,
+        "Port": 28018,
         "Ref": "RustPlusAppPort",
         "Name": "Rust+ App Port",
         "Description": "Port for Rust+ App traffic"
