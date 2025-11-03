@@ -10,15 +10,15 @@
         "Protocol": "Both",
         "Port": 28016,
         "Ref": "Query",
-        "Name": "Query and RCON Port",
-        "Description": "Port for query and RCON traffic"
+        "Name": "Query Port",
+        "Description": "Port for query traffic"
     },
     {
         "Protocol": "Both",
         "Port": 28017,
         "Ref": "RCONPort",
-        "Name": "Query and RCON Port",
-        "Description": "Port for query and RCON traffic"
+        "Name": "RCON Port",
+        "Description": "Port for RCON traffic"
     },
     {
         "Protocol": "TCP",
